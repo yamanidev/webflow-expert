@@ -10,6 +10,9 @@ module.exports = {
         extend: {
             colors: {
                 // To be filled from design file soon
+            },
+            fontFamily: {
+                epilogue: ["Epilogue", "sans-serif"]
             }
         }
     }
