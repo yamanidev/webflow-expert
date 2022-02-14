@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap" rel="stylesheet"> 
     <!-- Styles -->
     <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Scripts -->
+    <script src="../src/scripts/script.js" defer></script>
     <title>Webflow Expert</title>
 </head>
 <body>
@@ -21,7 +23,8 @@
                         <img src="assets/images/logo.png" alt="webflow logo">
                     </a>
                 </div>
-                <!-- <ul class="w-[515px] flex justify-between">
+                <!-- w-[515px] flex justify-between -->
+                <ul class="nav-list" id="navList">
                     <li>
                         <a href="#">About</a>
                     </li>
@@ -34,12 +37,16 @@
                     <li>
                         <a href="#">Blog</a>
                     </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
-                <div>
-                    <a href="#" class="py-2 px-6 border border-white/30 rounded-md text-sm font-black uppercase">Contact</a>
-                </div> -->
+                <div class="hidden">
+                    <!-- py-2 px-6 border border-white/30 rounded-md text-sm font-black uppercase -->
+                    <a href="#" class="">Contact</a>
+                </div>
             </nav>
-            <div class="burger-menu self-center">
+            <div class="burger-menu relative z-10 self-center" id="burgerMenu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
