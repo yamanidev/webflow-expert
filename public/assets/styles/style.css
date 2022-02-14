@@ -424,9 +424,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.mx-auto {
-  margin-left: auto;
+.container {
+  width: 100%;
   margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
 }
 .flex {
   display: flex;
@@ -446,6 +479,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
+.self-start {
+  align-self: flex-start;
+}
+.self-center {
+  align-self: center;
+}
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -459,29 +498,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(40 41 62 / var(--tw-bg-opacity));
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 .pt-3 {
   padding-top: 0.75rem;
@@ -506,4 +529,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 a{
     display: inline-block;
+}
+
+.burger-menu{
+    padding: 0.8rem 0.9rem;
+    border: 2px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 6px;
+    cursor: pointer
+
+}
+
+.burger-menu .burger-line{
+    height: 2px;
+    width: 16px;
+    margin-inline: auto;
+    background-color: white;
+}
+
+.burger-menu .burger-line:not(.burger-line:last-of-type){
+    margin-bottom: 6px;
 }

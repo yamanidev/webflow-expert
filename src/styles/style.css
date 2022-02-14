@@ -5,3 +5,22 @@
 a{
     display: inline-block;
 }
+
+.burger-menu{
+    padding: 0.8rem 0.9rem;
+    border: 2px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 6px;
+    cursor: pointer
+
+}
+
+.burger-menu .burger-line{
+    height: 2px;
+    width: 16px;
+    margin-inline: auto;
+    background-color: white;
+}
+
+.burger-menu .burger-line:not(.burger-line:last-of-type){
+    margin-bottom: 6px;
+}
