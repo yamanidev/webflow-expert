@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "tw-watch": "postcss src/styles/style.css -o public/assets/styles/style.css --watch --verbose",
+    "tw-build": "postcss src/styles/style.css -o public/assets/styles/style.css",
     "tw-prod": "NODE_ENV=production tailwindcss -i src/styles/style.css -o public/assets/styles/style.css --minify"
   },
   "repository": {
