@@ -20,10 +20,9 @@ module.exports = {
         },
         extend: {
             colors: {
+                "accent": "#EF6D58",
                 "dark": "#391400",
-                "dark-accent": "#EF6D58",
                 "dark-gray": "rgba(57, 20, 0, 0.64)",
-                "light-accent": "#EF6D58",
                 "light-gray": "rgba(255, 255, 255, 0.64)"
             },
             fontFamily: {
