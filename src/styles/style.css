@@ -2,9 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    @apply bg-[#28293e];
+}
+
+h1, h2, h3{
+    @apply font-extrabold;
+}
+
+h1{
+    font-size: 4.5rem;
+    line-height: 5rem;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    letter-spacing: -1px;
+    @apply xl:text-[4.5rem];
+}
+
+h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+h4{
+    @apply font-bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h5{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
 a{
     display: inline-block;
 }
+
 
 /* Burger menu */
 
@@ -45,8 +83,9 @@ a{
 /* Nav list */
 
 #navList{
-    @apply w-screen pl-6 pt-24 hidden absolute top-0 left-0 bottom-0 opacity-[.97] text-2xl bg-[#28293e];
+    @apply w-screen pl-14 pt-24 hidden absolute top-0 left-0 bottom-0 opacity-[.97] text-2xl bg-[#28293e];
     @apply lg:w-[515px] lg:p-0 lg:flex lg:justify-between lg:static lg:opacity-100 lg:text-base;
+    z-index: 1;
 }
 
 /* Nav list toggled */
