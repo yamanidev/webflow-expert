@@ -20,7 +20,11 @@ module.exports = {
         },
         extend: {
             colors: {
-                // To be filled from design file soon
+                "dark": "#391400",
+                "dark-accent": "#EF6D58",
+                "dark-gray": "rgba(57, 20, 0, 0.64)",
+                "light-accent": "#EF6D58",
+                "light-gray": "rgba(255, 255, 255, 0.64)"
             },
             fontFamily: {
                 sans: ["Epilogue", "ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "Roboto", "'Helvetica Neue'", "Arial", "'Noto Sans'", "sans-serif", "'Apple Color Emoji'", "'Segoe UI Emoji'", "'Segoe UI Symbol'", "'Noto Color Emoji'"]
