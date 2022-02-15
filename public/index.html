@@ -17,14 +17,13 @@
 <body>
     <header class="bg-[#28293e]">
         <div class="container flex items-center justify-between">
-            <nav class="pt-3 flex justify-between items-center text-white font-epilogue">
+            <nav class="w-full pt-3 flex justify-between items-center text-white font-epilogue">
                 <div>
                     <a href="/">
                         <img src="assets/images/logo.png" alt="webflow logo">
                     </a>
                 </div>
-                <!-- w-[515px] flex justify-between -->
-                <ul class="nav-list" id="navList">
+                <ul class="" id="navList">
                     <li>
                         <a href="#">About</a>
                     </li>
@@ -37,16 +36,15 @@
                     <li>
                         <a href="#">Blog</a>
                     </li>
-                    <li>
+                    <li class="lg:hidden">
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                <div class="hidden">
-                    <!-- py-2 px-6 border border-white/30 rounded-md text-sm font-black uppercase -->
-                    <a href="#" class="">Contact</a>
+                <div class="hidden lg:block">
+                    <a href="#" class="py-2 px-6 border border-white/30 rounded-md text-sm font-black uppercase">Contact</a>
                 </div>
             </nav>
-            <div class="burger-menu relative z-10 self-center" id="burgerMenu">
+            <div id="burgerMenu">
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>
                 <div class="burger-line"></div>

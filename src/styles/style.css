@@ -8,49 +8,49 @@ a{
 
 /* Burger menu */
 
-.burger-menu{
+#burgerMenu{
     padding: 0.8rem 0.9rem;
+    position: relative;
+    z-index: 2;
     border: 2px solid rgba(255, 255, 255, 0.295743);
     border-radius: 6px;
-    cursor: pointer
-
+    cursor: pointer;
+    @apply lg:hidden;
 }
 
-.burger-menu .burger-line{
-    height: 2px;
-    width: 16px;
-    margin-inline: auto;
+#burgerMenu .burger-line{
+    @apply h-[2px] w-4 mx-auto bg-white;
     border-radius: 1px;
-    background-color: white;
     transition: all 0.3s ease;
 }
 
-.burger-menu .burger-line:not(.burger-line:last-of-type){
-    margin-bottom: 6px;
+#burgerMenu .burger-line:not(.burger-line:last-of-type){
+    @apply mb-[6px];
 }
 
 /* Burger menu toggled */
 
-.burger-menu.active .burger-line:nth-child(1){
+#burgerMenu.active .burger-line:nth-child(1){
     transform: translateY(8px) rotate(45deg);
 }
 
-.burger-menu.active .burger-line:nth-child(2){
-    opacity: 0;
+#burgerMenu.active .burger-line:nth-child(2){
+    @apply opacity-0;
 }
 
-.burger-menu.active .burger-line:nth-child(3){
+#burgerMenu.active .burger-line:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
 
 /* Nav list */
 
-.nav-list{
+#navList{
     @apply w-screen pl-6 pt-24 hidden absolute top-0 left-0 bottom-0 opacity-[.97] text-2xl bg-[#28293e];
+    @apply lg:w-[515px] lg:p-0 lg:flex lg:justify-between lg:static lg:opacity-100 lg:text-base;
 }
 
 /* Nav list toggled */
 
-.nav-list.active{
-    display: block;
+#navList.active{
+    @apply block;
 }
