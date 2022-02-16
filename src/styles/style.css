@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-[#28293e];
+    @apply bg-[#28293e] text-white;
 }
 
 h1, h2, h3{
@@ -39,8 +39,16 @@ h5{
     line-height: 2rem;
 }
 
+p{
+    line-height: 2rem;
+}
+
 a{
     display: inline-block;
+}
+
+hr{
+    @apply my-14 border-[#3A3C56];
 }
 
 
