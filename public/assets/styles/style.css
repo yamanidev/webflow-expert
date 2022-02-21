@@ -459,6 +459,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1280px;
   }
 }
+.relative {
+  position: relative;
+}
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -487,20 +490,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-4 {
   margin-bottom: 1rem;
 }
-.mb-20 {
-  margin-bottom: 5rem;
-}
 .mb-7 {
   margin-bottom: 1.75rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mt-7 {
+  margin-top: 1.75rem;
+}
 .flex {
   display: flex;
 }
 .hidden {
   display: none;
+}
+.h-80 {
+  height: 20rem;
 }
 .w-full {
   width: 100%;
@@ -544,6 +550,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(58 60 86 / var(--tw-border-opacity));
 }
+.border-\[\#F3D1BF\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 209 191 / var(--tw-border-opacity));
+}
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(239 109 88 / var(--tw-bg-opacity));
@@ -555,6 +565,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#B550F8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(181 80 248 / var(--tw-bg-opacity));
+}
+.bg-\[\#fdf0e9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 240 233 / var(--tw-bg-opacity));
 }
 .py-2 {
   padding-top: 0.5rem;
@@ -580,6 +594,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
 }
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -594,6 +612,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-36 {
   padding-top: 9rem;
+}
+.pt-28 {
+  padding-top: 7rem;
+}
+.pt-\[65rem\] {
+  padding-top: 65rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -891,7 +915,43 @@ hr {
 
 @media (min-width: 1280px) {
 
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:w-96 {
+    width: 24rem;
+  }
+
+  .xl\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .xl\:rounded-t-none {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .xl\:rounded-l-md {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+  }
+
+  .xl\:rounded-b-none {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .xl\:rounded-r-md {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+  }
+
   .xl\:pt-14 {
     padding-top: 3.5rem;
+  }
+
+  .xl\:pt-48 {
+    padding-top: 12rem;
   }
 }
