@@ -1,6 +1,9 @@
 # About
 A responsive portfolio template converted from a [Figma file](https://www.figma.com/community/file/1063415783897538948).
 
+# To do:
+- Replace video reel picture with an actual video, figure out how to style media controls.
+
 # Credits
 - Designer: [Laaqiq](https://dribbble.com/laaqiq)
 - Images:
