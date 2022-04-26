@@ -466,6 +466,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -508,6 +516,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-2 {
   margin-top: 0.5rem;
 }
+.inline-block {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
@@ -520,11 +531,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full {
   width: 100%;
 }
+.w-12 {
+  width: 3rem;
+}
 .max-w-xl {
   max-width: 36rem;
 }
 .max-w-md {
   max-width: 28rem;
+}
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+.shrink-0 {
+  flex-shrink: 0;
 }
 .flex-col {
   flex-direction: column;
@@ -645,6 +665,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
 }
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
 .font-black {
   font-weight: 900;
 }
@@ -659,6 +683,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .leading-\[3rem\] {
   line-height: 3rem;
+}
+.leading-\[5rem\] {
+  line-height: 5rem;
 }
 .tracking-\[3px\] {
   letter-spacing: 3px;
@@ -909,6 +936,10 @@ hr {
     max-width: 28rem;
   }
 
+  .lg\:max-w-none {
+    max-width: none;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -985,6 +1016,10 @@ hr {
 
   .xl\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .xl\:gap-40 {
+    gap: 10rem;
   }
 
   .xl\:rounded-t-none {
