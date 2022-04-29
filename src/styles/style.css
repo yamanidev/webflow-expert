@@ -20,7 +20,6 @@ h2{
     font-size: 3.5rem;
     line-height: 4rem;
     letter-spacing: -1px;
-    @apply xl:text-[4.5rem];
 }
 
 h3{
