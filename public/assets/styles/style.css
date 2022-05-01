@@ -562,6 +562,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-10 {
   margin-top: 2.5rem;
 }
+.mt-5 {
+  margin-top: 1.25rem;
+}
 .inline-block {
   display: inline-block;
 }
@@ -603,6 +606,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-xs {
   max-width: 20rem;
+}
+.max-w-sm {
+  max-width: 24rem;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -733,6 +739,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0px;
   padding-right: 0px;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -762,6 +772,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-4 {
   padding-bottom: 1rem;
+}
+.pt-60 {
+  padding-top: 15rem;
 }
 .text-center {
   text-align: center;
@@ -1162,6 +1175,10 @@ hr {
 
   .xl\:mt-11 {
     margin-top: 2.75rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
   }
 
   .xl\:flex {
