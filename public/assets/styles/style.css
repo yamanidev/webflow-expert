@@ -1027,17 +1027,16 @@ hr {
 @media (min-width: 1024px) {
 
   .testimonial-card {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .testimonial-card {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 }
 
 @media (min-width: 1280px) {
+
+  .testimonial-card {
+    height: 370px;
+  }
 
   .testimonial-card {
     width: 586px;
@@ -1215,8 +1214,8 @@ hr {
     top: -1.5rem;
   }
 
-  .xl\:bottom-\[3\.25rem\] {
-    bottom: 3.25rem;
+  .xl\:bottom-\[60px\] {
+    bottom: 60px;
   }
 
   .xl\:mx-0 {
@@ -1236,8 +1235,8 @@ hr {
     display: flex;
   }
 
-  .xl\:h-\[400px\] {
-    height: 400px;
+  .xl\:h-\[430px\] {
+    height: 430px;
   }
 
   .xl\:w-96 {

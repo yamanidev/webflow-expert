@@ -102,5 +102,5 @@ hr{
 }
 
 .testimonial-card {
-    @apply max-w-[586px] xl:w-[586px] py-12 px-7 lg:py-16 lg:px-10 bg-white border border-[#F3D1BF];
+    @apply max-w-[586px] xl:w-[586px] xl:h-[370px] py-12 px-7 lg:px-10 bg-white border border-[#F3D1BF];
 }
