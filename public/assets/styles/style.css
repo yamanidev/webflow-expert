@@ -843,13 +843,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-\[5rem\] {
   line-height: 5rem;
 }
-.tracking-\[3px\] {
-  letter-spacing: 3px;
-}
-.text-accent {
-  --tw-text-opacity: 1;
-  color: rgb(239 109 88 / var(--tw-text-opacity));
-}
 .text-light-gray {
   color: rgba(255, 255, 255, 0.64);
 }
@@ -928,6 +921,13 @@ hr {
   margin-bottom: 3.5rem;
   --tw-border-opacity: 1;
   border-color: rgb(58 60 86 / var(--tw-border-opacity));
+}
+
+.title-tag {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  --tw-text-opacity: 1;
+  color: rgb(239 109 88 / var(--tw-text-opacity));
 }
 
 

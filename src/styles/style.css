@@ -50,6 +50,10 @@ hr{
     @apply my-14 border-[#3A3C56];
 }
 
+.title-tag {
+    @apply text-accent tracking-[3px] uppercase;
+}
+
 
 /* Burger menu */
 
