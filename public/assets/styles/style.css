@@ -688,7 +688,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(58 60 86 / var(--tw-border-opacity));
 }
-.border-\[\#F3D1BF\] {
+.border-beige {
   --tw-border-opacity: 1;
   border-color: rgb(243 209 191 / var(--tw-border-opacity));
 }
@@ -708,7 +708,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(253 240 233 / var(--tw-bg-opacity));
 }
-.bg-\[\#F3D1BF\] {
+.bg-beige {
   --tw-bg-opacity: 1;
   background-color: rgb(243 209 191 / var(--tw-bg-opacity));
 }
@@ -806,9 +806,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pb-\[1500px\] {
   padding-bottom: 1500px;
-}
-.pt-96 {
-  padding-top: 24rem;
 }
 .text-center {
   text-align: center;
