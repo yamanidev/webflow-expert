@@ -108,3 +108,19 @@ hr{
 .testimonial-card {
     @apply max-w-[586px] xl:w-[586px] xl:h-[336px] py-12 px-7 lg:px-12 flex flex-col justify-center bg-white border border-[#F3D1BF];
 }
+
+.pricing-plan-card {
+    @apply h-[33.125rem] py-11 px-7 flex flex-col items-start justify-between border border-beige;
+}
+
+.pricing-plan-card:first-child {
+    @apply rounded-t-md lg:rounded-tr-none lg:rounded-bl-md;
+}
+
+.pricing-plan-card:nth-child(2) {
+    @apply h-[37.5rem] lg:pt-10 lg:rounded-t-md bg-white;
+}
+
+.pricing-plan-card:last-child {
+    @apply rounded-b-md lg:rounded-bl-none lg:rounded-tr-md;
+}
