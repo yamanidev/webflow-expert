@@ -1189,8 +1189,8 @@ hr {
     left: 3rem;
   }
 
-  .sm\:top-\[450px\] {
-    top: 450px;
+  .sm\:top-\[300px\] {
+    top: 300px;
   }
 
   .sm\:mx-0 {
@@ -1208,6 +1208,10 @@ hr {
 
   .sm\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .sm\:pb-\[1200px\] {
+    padding-bottom: 1200px;
   }
 
   .sm\:pt-96 {
@@ -1366,8 +1370,8 @@ hr {
     top: -1.5rem;
   }
 
-  .xl\:top-\[250px\] {
-    top: 250px;
+  .xl\:top-\[300px\] {
+    top: 300px;
   }
 
   .xl\:right-0 {
