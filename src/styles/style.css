@@ -124,3 +124,31 @@ hr{
 .pricing-plan-card:last-child {
     @apply rounded-b-md lg:rounded-bl-none lg:rounded-tr-md;
 }
+
+.faq-card {
+    @apply py-10 px-7 xl:px-12 border border-dark-beige;
+}
+
+.faq-card div:first-of-type {
+    @apply mb-5 xl:mb-9 flex items-start justify-between gap-2;
+}
+
+.faq-card h4 {
+    @apply text-dark;
+}
+
+.faq-card p {
+    @apply text-dark-gray;
+}
+
+.faq-card img {
+    @apply w-8 h-8;
+}
+
+.faq-card:first-child {
+    @apply rounded-t-md bg-white shadow-[0_32px_64px_rgba(57,20,0,0.04)];
+}
+
+.faq-card:last-child {
+    @apply rounded-b-md;
+}
