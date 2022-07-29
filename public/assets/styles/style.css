@@ -711,7 +711,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(58 60 86 / var(--tw-border-opacity));
 }
-.border-beige {
+.border-dark-beige {
   --tw-border-opacity: 1;
   border-color: rgb(243 209 191 / var(--tw-border-opacity));
 }
@@ -727,11 +727,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(181 80 248 / var(--tw-bg-opacity));
 }
-.bg-\[\#fdf0e9\] {
+.bg-beige {
   --tw-bg-opacity: 1;
   background-color: rgb(253 240 233 / var(--tw-bg-opacity));
 }
-.bg-beige {
+.bg-dark-beige {
   --tw-bg-opacity: 1;
   background-color: rgb(243 209 191 / var(--tw-bg-opacity));
 }

@@ -110,7 +110,7 @@ hr{
 }
 
 .pricing-plan-card {
-    @apply h-[33.125rem] py-11 px-7 flex flex-col items-start justify-between border border-beige;
+    @apply h-[33.125rem] py-11 px-7 flex flex-col items-start justify-between border border-dark-beige;
 }
 
 .pricing-plan-card:first-child {

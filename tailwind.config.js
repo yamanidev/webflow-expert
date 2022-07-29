@@ -24,7 +24,8 @@ module.exports = {
                 "dark": "#391400",
                 "dark-gray": "rgba(57, 20, 0, 0.64)",
                 "light-gray": "rgba(255, 255, 255, 0.64)",
-                "beige": "#F3D1BF"
+                "beige": "#fdf0e9",
+                "dark-beige": "#F3D1BF"
             },
             fontFamily: {
                 sans: ["Epilogue", "ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "Roboto", "'Helvetica Neue'", "Arial", "'Noto Sans'", "sans-serif", "'Apple Color Emoji'", "'Segoe UI Emoji'", "'Segoe UI Symbol'", "'Noto Color Emoji'"]
