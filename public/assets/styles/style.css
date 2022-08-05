@@ -692,9 +692,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-9 {
   gap: 2.25rem;
 }
-.gap-6 {
-  gap: 1.5rem;
-}
 .rounded-md {
   border-radius: 0.375rem;
 }
@@ -1345,20 +1342,52 @@ a{
   border-bottom-width: 1px;
 }
 
-.award-title {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  --tw-text-opacity: 1;
-  color: rgb(57 20 0 / var(--tw-text-opacity));
+.award-card div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.award-date {
-  color: rgba(57, 20, 0, 0.64);
+@media (min-width: 768px) {
+
+  .award-card div:first-child {
+    width: 16rem;
+  }
+
+  .award-card div:first-child {
+    flex-direction: row;
+  }
 }
 
-.award-organization {
-  --tw-text-opacity: 1;
-  color: rgb(57 20 0 / var(--tw-text-opacity));
+.award-card div:last-child {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+
+  .award-card div:last-child {
+    margin-top: 0px;
+  }
+
+  .award-card div:last-child {
+    width: 14rem;
+  }
+
+  .award-card div:last-child {
+    flex-direction: row;
+  }
+
+  .award-card div:last-child {
+    justify-content: flex-end;
+  }
+
+  .award-card div:last-child {
+    gap: 0.75rem;
+  }
 }
 
 @media (min-width: 640px) {
@@ -1407,20 +1436,8 @@ a{
     order: 2;
   }
 
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
   .md\:mt-16 {
     margin-top: 4rem;
-  }
-
-  .md\:w-64 {
-    width: 16rem;
-  }
-
-  .md\:w-56 {
-    width: 14rem;
   }
 
   .md\:flex-1 {
@@ -1429,14 +1446,6 @@ a{
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
-  }
-
-  .md\:gap-3 {
-    gap: 0.75rem;
   }
 
   .md\:rounded-t-none {

@@ -165,14 +165,10 @@ a{
     @apply border-b;
 }
 
-.award-title {
-    @apply text-xl text-dark;
+.award-card div:first-child {
+    @apply flex flex-col items-center md:flex-row md:w-64 gap-6;
 }
 
-.award-date {
-    @apply text-dark-gray;
-}
-
-.award-organization {
-    @apply text-dark;
+.award-card div:last-child {
+    @apply mt-4 md:mt-0 flex flex-col items-center md:flex-row md:w-56 md:justify-end md:gap-3;
 }
