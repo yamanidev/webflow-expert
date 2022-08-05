@@ -1485,6 +1485,10 @@ a{
     padding-top: 90rem;
   }
 
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+
   .lg\:text-\[3\.25rem\] {
     font-size: 3.25rem;
   }
