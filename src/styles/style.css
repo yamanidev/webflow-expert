@@ -156,3 +156,23 @@ a{
 .companies img {
     @apply mx-auto md:mx-0;
 }
+
+.award-card {
+    @apply py-8 md:py-4 md:flex md:items-center md:justify-between text-center border-t border-dark-beige;
+}
+
+.award-card:last-child {
+    @apply border-b;
+}
+
+.award-title {
+    @apply text-xl text-dark;
+}
+
+.award-date {
+    @apply text-dark-gray;
+}
+
+.award-organization {
+    @apply text-dark;
+}
