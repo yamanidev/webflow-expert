@@ -939,9 +939,23 @@ h1{
     letter-spacing: -2px;
 }
 
-h2{
+h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+@media (min-width: 768px) {
+
+  h2 {
     font-size: 3.5rem;
+  }
+
+  h2 {
     line-height: 4rem;
+  }
+}
+
+h2{
     letter-spacing: -1px;
 }
 

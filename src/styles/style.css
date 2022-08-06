@@ -17,8 +17,7 @@ h1{
 }
 
 h2{
-    font-size: 3.5rem;
-    line-height: 4rem;
+    @apply text-[2.5rem] md:text-[3.5rem] leading-[3rem] md:leading-[4rem];
     letter-spacing: -1px;
 }
 
