@@ -45,6 +45,18 @@ a{
     display: inline-block;
 }
 
+input, textarea, input::placeholder, textarea::placeholder {
+    @apply text-dark-gray;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    @apply text-dark-gray;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    @apply text-dark-gray;
+}
+
 .title-tag {
     @apply text-accent tracking-[3px] uppercase;
 }
@@ -170,4 +182,13 @@ a{
 
 .award-card div:last-child {
     @apply mt-4 md:mt-0 flex flex-col items-center md:flex-row md:w-56 md:justify-end md:gap-3;
+}
+
+.blogs {
+    @apply container flex flex-col md:flex-row items-center md:items-stretch gap-14 md:gap-8 absolute top-96 md:top-[350px] left-0 right-0;
+}
+
+.blog-card {
+    @apply max-w-sm flex-grow;
+    flex: 1 1 0px;
 }

@@ -510,6 +510,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bottom-5 {
   bottom: 1.25rem;
 }
+.bottom-3 {
+  bottom: 0.75rem;
+}
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -668,6 +671,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex-wrap {
   flex-wrap: wrap;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-center {
   align-items: center;
 }
@@ -805,6 +811,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -852,6 +866,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-20 {
   padding-top: 5rem;
+}
+.pt-32 {
+  padding-top: 8rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
+}
+.pt-\[1300px\] {
+  padding-top: 1300px;
 }
 .text-center {
   text-align: center;
@@ -981,6 +1004,26 @@ p{
 
 a{
     display: inline-block;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+}
+
+input, textarea, input::placeholder, textarea::placeholder {
+  color: rgba(57, 20, 0, 0.64);
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: rgba(57, 20, 0, 0.64);
 }
 
 .title-tag {
@@ -1404,6 +1447,82 @@ a{
   }
 }
 
+.blogs {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 640px) {
+
+  .blogs {
+    max-width: 640px;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .blogs {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .blogs {
+    max-width: 1024px;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .blogs {
+    max-width: 1280px;
+  }
+}
+
+.blogs {
+  position: absolute;
+  top: 24rem;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .blogs {
+    top: 350px;
+  }
+
+  .blogs {
+    flex-direction: row;
+  }
+
+  .blogs {
+    align-items: stretch;
+  }
+
+  .blogs {
+    gap: 2rem;
+  }
+}
+
+.blog-card {
+  max-width: 24rem;
+  flex-grow: 1;
+    flex: 1 1 0px;
+}
+
 @media (min-width: 640px) {
 
   .sm\:top-48 {
@@ -1454,12 +1573,32 @@ a{
     margin-top: 4rem;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:flex-1 {
     flex: 1 1 0%;
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-7 {
+    gap: 1.75rem;
   }
 
   .md\:rounded-t-none {
@@ -1489,6 +1628,10 @@ a{
   .md\:pt-24 {
     padding-top: 6rem;
   }
+
+  .md\:pt-96 {
+    padding-top: 24rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1503,6 +1646,10 @@ a{
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-\[370px\] {
+    width: 370px;
   }
 
   .lg\:max-w-2xl {
