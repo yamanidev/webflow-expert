@@ -45,7 +45,7 @@ a{
     display: inline-block;
 }
 
-input {
+input, textarea {
     @apply py-3 px-4 rounded-md;
 }
 
@@ -195,4 +195,8 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 .blog-card {
     @apply max-w-sm flex-grow;
     flex: 1 1 0px;
+}
+
+.contact-form input, .contact-form textarea {
+    @apply w-full border border-dark-beige;
 }
