@@ -45,6 +45,10 @@ a{
     display: inline-block;
 }
 
+input {
+    @apply py-3 px-4 rounded-md;
+}
+
 input, textarea, input::placeholder, textarea::placeholder {
     @apply text-dark-gray;
 }

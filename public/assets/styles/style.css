@@ -1006,6 +1006,14 @@ a{
     display: inline-block;
 }
 
+input {
+  border-radius: 0.375rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 input::-moz-placeholder, textarea::-moz-placeholder {
   color: rgba(57, 20, 0, 0.64);
 }
