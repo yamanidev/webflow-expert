@@ -513,6 +513,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bottom-3 {
   bottom: 0.75rem;
 }
+.top-32 {
+  top: 8rem;
+}
+.top-3 {
+  top: 0.75rem;
+}
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
@@ -604,6 +610,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-8 {
   margin-top: 2rem;
 }
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
 .inline-block {
   display: inline-block;
 }
@@ -660,6 +669,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-\[570px\] {
   max-width: 570px;
+}
+.max-w-2xl {
+  max-width: 42rem;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -828,6 +840,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -884,6 +900,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-\[1300px\] {
   padding-top: 1300px;
+}
+.pt-\[800px\] {
+  padding-top: 800px;
+}
+.pt-96 {
+  padding-top: 24rem;
 }
 .text-center {
   text-align: center;
@@ -1810,6 +1832,14 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     top: 1.25rem;
   }
 
+  .xl\:top-44 {
+    top: 11rem;
+  }
+
+  .xl\:order-2 {
+    order: 2;
+  }
+
   .xl\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1829,6 +1859,10 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 
   .xl\:h-\[400px\] {
     height: 400px;
+  }
+
+  .xl\:h-\[33\.75rem\] {
+    height: 33.75rem;
   }
 
   .xl\:w-96 {
@@ -1851,6 +1885,10 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     max-width: 72rem;
   }
 
+  .xl\:max-w-none {
+    max-width: none;
+  }
+
   .xl\:flex-1 {
     flex: 1 1 0%;
   }
@@ -1867,12 +1905,20 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     justify-content: space-between;
   }
 
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+
   .xl\:gap-40 {
     gap: 10rem;
   }
 
   .xl\:gap-32 {
     gap: 8rem;
+  }
+
+  .xl\:gap-0 {
+    gap: 0px;
   }
 
   .xl\:rounded-t-none {
@@ -1917,6 +1963,11 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     padding-right: 5rem;
   }
 
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .xl\:pt-14 {
     padding-top: 3.5rem;
   }
@@ -1939,5 +1990,9 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 
   .xl\:pt-44 {
     padding-top: 11rem;
+  }
+
+  .xl\:pt-\[600px\] {
+    padding-top: 600px;
   }
 }
