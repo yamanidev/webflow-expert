@@ -142,7 +142,7 @@ hr{
 }
 
 .faq-card img {
-    @apply w-8 h-8;
+    @apply w-8 h-8 cursor-pointer;
 }
 
 .faq-card:first-child {

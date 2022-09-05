@@ -1237,6 +1237,7 @@ hr {
 .faq-card img {
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
 }
 
 .faq-card:first-child {
