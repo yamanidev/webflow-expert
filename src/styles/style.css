@@ -17,8 +17,7 @@ h1{
 }
 
 h2{
-    font-size: 3.5rem;
-    line-height: 4rem;
+    @apply text-[2.5rem] md:text-[3.5rem] leading-[3rem] md:leading-[4rem];
     letter-spacing: -1px;
 }
 
@@ -46,8 +45,20 @@ a{
     display: inline-block;
 }
 
-hr{
-    @apply my-14 border-[#3A3C56];
+input, textarea {
+    @apply py-3 px-4 rounded-md;
+}
+
+input, textarea, input::placeholder, textarea::placeholder {
+    @apply text-dark-gray;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    @apply text-dark-gray;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    @apply text-dark-gray;
 }
 
 .title-tag {
@@ -151,4 +162,41 @@ hr{
 
 .faq-card:last-child {
     @apply rounded-b-md;
+}
+
+.companies {
+    @apply container flex items-center justify-between gap-y-7 gap-x-5 flex-wrap;
+}
+
+.companies img {
+    @apply mx-auto md:mx-0;
+}
+
+.award-card {
+    @apply py-8 md:py-4 md:flex md:items-center md:justify-between text-center border-t border-dark-beige;
+}
+
+.award-card:last-child {
+    @apply border-b;
+}
+
+.award-card div:first-child {
+    @apply flex flex-col items-center md:flex-row md:w-64 gap-6;
+}
+
+.award-card div:last-child {
+    @apply mt-4 md:mt-0 flex flex-col items-center md:flex-row md:w-56 md:justify-end md:gap-3;
+}
+
+.blogs {
+    @apply container flex flex-col md:flex-row items-center md:items-stretch gap-14 md:gap-8 absolute top-96 md:top-[350px] left-0 right-0;
+}
+
+.blog-card {
+    @apply max-w-sm flex-grow;
+    flex: 1 1 0px;
+}
+
+.contact-form input, .contact-form textarea {
+    @apply w-full border border-dark-beige;
 }
