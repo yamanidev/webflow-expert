@@ -929,6 +929,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-right {
   text-align: right;
 }
+.align-top {
+  vertical-align: top;
+}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
