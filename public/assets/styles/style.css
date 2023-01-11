@@ -731,6 +731,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-12 {
   gap: 3rem;
 }
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
 .rounded-md {
   border-radius: 0.375rem;
 }

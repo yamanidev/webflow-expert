@@ -1,7 +1,8 @@
 module.exports = {
     mode: "jit",
     content: [
-        "./public/index.html"
+        "public/index.html",
+        "public/scripts/script.js"
     ],
     theme: {
         screens: {
